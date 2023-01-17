@@ -5,4 +5,4 @@ import datetime
 def home(request):
     data = dict()
     data['time_of_day'] = datetime.datetime.now()
-    return render(request, 'home.html', context=data)
+    return render(request, 'Home.html', context=data)
